@@ -9,8 +9,8 @@
 /*comentarios*/
 header {
   width: 100%;
-  height: 50px;
-  background: #DC4661; }
+  height: 60px;
+  background: #104459; }
   header nav {
     width: 40%;
     float: left; }
@@ -23,7 +23,7 @@ header {
           color: white;
           width: 1em; }
           header nav ul li a:hover {
-            color: black;
+            color: #6ABEDF;
             text-decoration: none;
             transition: 1s; }
 
@@ -39,6 +39,24 @@ header {
     .home a:hover {
       text-decoration: none; }
   .home h1 {
+    text-align: center;
+    color: black;
+    padding-top: 4em;
+    font-size: 3.998em; }
+
+.home1 {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../img/mac.jpg); }
+  .home1 a {
+    color: white;
+    text-shadow: 2px 3px black;
+    font-family: 'Offside', cursive;
+    text-transform: uppercase; }
+    .home1 a:hover {
+      text-decoration: none; }
+  .home1 h1 {
     text-align: center;
     color: black;
     padding-top: 4em;
