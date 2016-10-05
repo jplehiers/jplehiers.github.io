@@ -6,11 +6,11 @@
     margin: 0;
     font-family:'Monda', sans-serif;
 }
-
+/*comentarios*/
 header{
     width: 100%;
     height: 50px;
-    background:coral;
+    background:#DC4661;
     nav{
         width: 40%;
         float: left;
@@ -22,6 +22,7 @@ header{
                 a{
                     color: white;
                     width: 1em;
+                   
                     &:hover{
                      color: black;
                     text-decoration: none; 
@@ -31,4 +32,25 @@ header{
             }
         }
     }
+}
+/*comentarios*/
+.home {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    a{
+        color: white;
+        text-shadow: 1px 1px black;
+        font-family: 'Offside', cursive;
+        &:hover{
+            text-decoration:none;
+            }
+    }
+    h1 {
+  text-align: center;
+  color:black;
+  padding-top:4em;
+  font-size:3.998em
+}
+
 }
